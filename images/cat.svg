@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .lid { transform-origin: 32px 36px; animation: blink 4s infinite; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(0); } 95% { transform: scaleY(1); } }
+  </style>
+  <!-- ears -->
+  <path d="M8 30 L11 5 L28 17 Z" fill="#8f806b" stroke="#3b332b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M56 30 L53 5 L36 17 Z" fill="#8f806b" stroke="#3b332b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12.5 24 L13.5 11 L23 18 Z" fill="#e8b4a6"/>
+  <path d="M51.5 24 L50.5 11 L41 18 Z" fill="#e8b4a6"/>
+  <!-- head -->
+  <ellipse cx="32" cy="37" rx="25" ry="22" fill="#9c8d76" stroke="#3b332b" stroke-width="2"/>
+  <!-- tabby stripes -->
+  <path d="M32 16 v8 M26 17 l2 7 M38 17 l-2 7" stroke="#4a3f34" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M8 36 h6 M8.5 41 l6 -1 M56 36 h-6 M55.5 41 l-6 -1" stroke="#4a3f34" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- muzzle -->
+  <ellipse cx="32" cy="47" rx="11" ry="8" fill="#efe4d2"/>
+  <!-- eyes -->
+  <ellipse cx="22" cy="36" rx="6" ry="6.5" fill="#c9c35a" stroke="#2b2520" stroke-width="1.6"/>
+  <ellipse cx="42" cy="36" rx="6" ry="6.5" fill="#c9c35a" stroke="#2b2520" stroke-width="1.6"/>
+  <ellipse cx="22.5" cy="36.5" rx="3.6" ry="4.6" fill="#1d1916"/>
+  <ellipse cx="41.5" cy="36.5" rx="3.6" ry="4.6" fill="#1d1916"/>
+  <circle cx="24" cy="34.5" r="1.4" fill="#fff"/>
+  <circle cx="43" cy="34.5" r="1.4" fill="#fff"/>
+  <g class="lid" fill="#9c8d76">
+    <ellipse cx="22" cy="36" rx="6.8" ry="7.3"/>
+    <ellipse cx="42" cy="36" rx="6.8" ry="7.3"/>
+  </g>
+  <!-- nose + mouth -->
+  <path d="M28.5 43 h7 l-3.5 4 Z" fill="#e3948a" stroke="#7a4a44" stroke-width="1" stroke-linejoin="round"/>
+  <path d="M32 47 v2 q-2.5 2.5 -5 0.5 M32 49 q2.5 2.5 5 0.5" fill="none" stroke="#3b332b" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
